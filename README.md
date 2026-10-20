@@ -34,6 +34,20 @@ claude plugin install explainer-video@albatesuk-skills
 
 Then close Claude Code if it's open, and open it again.
 
+### Or install from a downloaded copy
+
+If you've downloaded this repository with git, open a terminal in the folder that contains it and run:
+
+```bash
+claude plugin marketplace add ./albatesuk-skills
+```
+
+```bash
+claude plugin install explainer-video@albatesuk-skills
+```
+
+To update later, run `git pull` inside the `albatesuk-skills` folder, then the update command below.
+
 ### Getting updates
 
 To get the latest version, ask Claude to "update the albatesuk-skills plugins", or run:

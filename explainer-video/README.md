@@ -34,3 +34,13 @@ Claude works through it with you step by step, and checks with you before each b
 - **Claude may need to install some free software** to make the video files. It will tell you what's needed and ask before installing anything.
 - **Check the claims.** Claude only uses what your website says, and lists every number and promise in the script for you to check. You know your business best, so read that list before you approve the script.
 - **Music:** use a track you have the rights to.
+
+## What it does on your computer
+
+- **Reads your website.** Claude visits the website you name, or reads the folder of website files you point it to.
+- **Saves files in one project folder.** The preview, the script, a few small helper programs Claude writes for this video, and the finished video files all go in the folder you choose.
+- **Plays the preview in your browser.** Claude runs a small web server on your computer to show the preview. Only you can see it.
+- **Installs free software, if you agree.** To make the video files, Claude may need Node.js, Google Chrome and ffmpeg, plus one Node.js add-on, `playwright-core`, in the project folder. It asks before installing anything and uses your computer's usual installer.
+- **Changes your website only if you ask.** Claude adds the video to your site only when you ask it to, and doesn't publish or upload anything.
+
+Nothing is sent anywhere except the normal requests to your website and to download the software above.
