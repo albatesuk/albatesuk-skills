@@ -1,0 +1,19 @@
+{
+  "name": "albatesuk-skills",
+  "owner": {
+    "name": "albatesuk"
+  },
+  "metadata": {
+    "description": "Add-ons that teach Claude new jobs, by albatesuk"
+  },
+  "plugins": [
+    {
+      "name": "explainer-video",
+      "source": "./explainer-video",
+      "description": "Give Claude your website and it makes a 30–60 second video explaining your product, with captions, your brand colours and music.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["video", "explainer", "marketing", "animation"]
+    }
+  ]
+}

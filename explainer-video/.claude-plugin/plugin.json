@@ -1,0 +1,11 @@
+{
+  "name": "explainer-video",
+  "version": "1.0.0",
+  "description": "Give Claude your website and it makes a 30–60 second video explaining your product, with captions, your brand colours and music.",
+  "author": {
+    "name": "albatesuk"
+  },
+  "repository": "https://github.com/albatesuk/albatesuk-skills",
+  "license": "MIT",
+  "keywords": ["video", "explainer", "marketing", "animation"]
+}
